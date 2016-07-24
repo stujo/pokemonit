@@ -1,0 +1,151 @@
+001	Bulbasaur	Fushigidane	231				080			Egg
+002	Ivysaur	Fushigisou	232				081			Bulbasaur
+003	Venusaur	Fushigibana	233				082			Ivysaur
+004	Charmander	Hitokage	234				083			Egg
+005	Charmeleon	Lizardo	235				084			Charmander
+006	Charizard	Lizardon	236				085			Charmeleon
+007	Squirtle	Zenigame	237				086			Egg
+008	Wartortle	Kameil	238				087			Squirtle
+009	Blastoise	Kamex	239				088			Wartortle
+010	Caterpie	Caterpie	024				023			Egg
+011	Metapod	Transel	025				024			Caterpie
+012	Butterfree	Butterfree	026				025			Metapod
+013	Weedle	Beedle	027				026			Egg
+014	Kakuna	Cocoon	028				027			Weedle
+015	Beedrill	Spear	029				028			Kakuna
+016	Pidgey	Poppo	010				017			Egg
+017	Pidgeotto	Pigeon	011				018			Pidgey
+018	Pidgeot	Pigeot	012				019			Pidgeotto
+019	Rattata	Koratta	017	221		059				Egg
+020	Raticate	Ratta	018	222		060				Rattata
+021	Spearow	Onisuzume	013						109	Egg
+022	Fearow	Onidrill	014						110	Spearow
+023	Ekans	Arbo	050		218				037	Egg
+024	Arbok	Arbok	051		219				038	Ekans
+025	Pikachu	Pikachu	022	156	104	330	036			Pichu
+026	Raichu	Raichu	023	157	105	331	037			Pikachu
+027	Sandshrew	Sand	048	112		113			097	Egg
+028	Sandslash	Sandpan	049	113		114			098	Sandshrew
+029	Nidoran♀	Nidoran♀	095					104		Egg
+030	Nidorina	Nidorina	096					105		Nidoran♀
+031	Nidoqueen	Nidoqueen[2]	097					106		Nidorina
+032	Nidoran♂	Nidoran♂	098					107		Egg
+033	Nidorino	Nidorino	099					108		Nidoran♂
+034	Nidoking	Nidoking	100					109		Nidorino
+035	Clefairy	Pippi	041		100	089				Cleffa
+036	Clefable	Pixy	042		101	090				Clefairy
+037	Vulpix	Rokon	127	153		248				Egg
+038	Ninetales	Kyukon	128	154		249				Vulpix
+039	Jigglypuff	Purin	044	138	234	282			120	Igglybuff
+040	Wigglytuff	Pukurin	045	139	235	283			121	Jigglypuff
+041	Zubat	Zubat	037	063	028	061	145			Egg
+042	Golbat	Golbat	038	064	029	062	146			Zubat
+043	Oddish	Nazonokusa	083	088			105			Egg
+044	Gloom	Kusaihana	084	089			106			Oddish
+045	Vileplume	Ruffresia	085	090			107			Gloom
+046	Paras	Paras	070							Egg
+047	Parasect	Parasect	071							Paras
+048	Venonat	Kongpang	109							Egg
+049	Venomoth	Morphon	110							Venonat
+050	Diglett	Digda	134			343			001	Egg
+051	Dugtrio	Dugtrio	135			344			002	Diglett
+052	Meowth	Nyarth	138							Egg
+053	Persian	Persian	139							Meowth
+054	Psyduck	Koduck	140	158	043	028	059			Egg
+055	Golduck	Golduck	141	159	044	029	060			Psyduck
+056	Mankey	Mankey	136							Egg
+057	Primeape	Okorizaru	137							Mankey
+058	Growlithe	Gardie	129			051				Egg
+059	Arcanine	Windie	130			052				Growlithe
+060	Poliwag	Nyoromo	072		220				033	Egg
+061	Poliwhirl	Nyorozo	073		221				034	Poliwag
+062	Poliwrath	Nyorobon	074		222				035	Poliwhirl
+063	Abra	Casey	089	039	020	337	102			Egg
+064	Kadabra	Yungerer	090	040	021	338	103			Abra
+065	Alakazam	Foodin	091	041	022	339	104			Kadabra
+066	Machop	Wanriky	142	073	040	334		057		Egg
+067	Machoke	Goriky	143	074	041	335		058		Machop
+068	Machamp	Kairiky	144	075	042	336		059		Machoke
+069	Bellsprout	Madatsubomi	064						026	Egg
+070	Weepinbell	Utsudon	065						027	Bellsprout
+071	Victreebel	Utsubot	066						028	Weepinbell
+072	Tentacool	Menokurage	164	066	136			025		Egg
+073	Tentacruel	Dokukurage	165	067	137			026		Tentacool
+074	Geodude	Ishitsubute	034	057	031				009	Egg
+075	Graveler	Golone	035	058	032				010	Geodude
+076	Golem	Golonya	036	059	033				011	Graveler
+077	Ponyta	Ponyta	206		090					Egg
+078	Rapidash	Gallop	207		091					Ponyta
+079	Slowpoke	Yadon	080					133		Egg
+080	Slowbro	Yadoran	081					134		Slowpoke
+081	Magnemite	Coil	119	082	178	048			069	Egg
+082	Magneton	Rarecoil	120	083	179	049			070	Magnemite
+083	Farfetch'd	Kamonegi	160			345	061			Egg
+084	Doduo	Dodo	204	092			094			Egg
+085	Dodrio	Dodrio	205	093			095			Doduo
+086	Seel	Pawou	178			265				Egg
+087	Dewgong	Jugon	179			266				Seel
+088	Grimer	Betbeter	117	106		064				Egg
+089	Muk	Betbeton	118	107		065				Grimer
+090	Shellder	Shellder	171					036		Egg
+091	Cloyster	Parshen	172					037		Shellder
+092	Gastly	Ghos	058		069	340			030	Egg
+093	Haunter	Ghost	059		070	341			031	Gastly
+094	Gengar	Gangar	060		071	342			032	Haunter
+095	Onix	Iwark	062		034	071		053		Egg
+096	Drowzee	Sleep	087							Egg
+097	Hypno	Sleeper	088							Drowzee
+098	Krabby	Crab	166							Egg
+099	Kingler	Kingler	167							Krabby
+100	Voltorb	Biriridama	121	084	226				072	Egg
+101	Electrode	Marumine	122	085	227				073	Voltorb
+102	Exeggcute	Tamatama	105					136		Egg
+103	Exeggutor	Nassy	106					137		Exeggcute
+104	Cubone	Karakara	208					060		Egg
+105	Marowak	Garagara	209					061		Cubone
+106	Hitmonlee	Sawamular	146							Tyrogue
+107	Hitmonchan	Ebiwalar	147							Tyrogue
+108	Lickitung	Beroringa	180		161	284			134	Egg
+109	Koffing	Dogars	115	108		046				Egg
+110	Weezing	Matadogas	116	109		047				Koffing
+111	Rhyhorn	Sihorn	211	169	186	313		050		Egg
+112	Rhydon	Sidon	212	170	187	314		051		Rhyhorn
+113	Chansey	Lucky	222		097					Egg/Happiny
+114	Tangela	Monjara	182		181	217				Egg
+115	Kangaskhan	Garura	210					062		Egg
+116	Horsea	Tattu	190	184	236			039		Egg
+117	Seadra	Seadra	191	185	237			040		Horsea
+118	Goldeen	Tosakinto	078	050	078		053			Egg
+119	Seaking	Azumao	079	051	079		054			Goldeen
+120	Staryu	Hitodeman	169	143		238		034		Egg
+121	Starmie	Starmie	170	144		239		035		Staryu
+122	Mr. Mime	Barrierd	158		095			114		Egg/Mime Jr.
+123	Scyther	Strike	111		195	332			136	Egg
+124	Jynx	Rougela	155		240				084	Smoochum
+125	Electabuzz	Eleboo	157		198	057				Elekid
+126	Magmar	Boober	153		201	054				Magby
+127	Pinsir	Kailios	113	167		146		130		Egg
+128	Tauros	Kentauros	150					125		Egg
+129	Magikarp	Koiking	076	052	023	349	049			Egg
+130	Gyarados	Gyarados	077	053	024	350	050			Magikarp
+131	Lapras	Laplace	224			242		150		Egg
+132	Ditto	Metamon	092			261			138	
+133	Eevee	Eievui	184		163	091		077		Egg
+134	Vaporeon	Showers	185		164	092		078		Eevee
+135	Jolteon	Thunders	186		165	093		079		Eevee
+136	Flareon	Booster	187		166	094		080		Eevee
+137	Porygon	Porygon/Polygon[3]	220		192					Egg
+138	Omanyte	Omnite	225							Egg/helix fossil
+139	Omastar	Omstar	226							Omanyte
+140	Kabuto	Kabuto	227							Egg/dome fossil
+141	Kabutops	Kabutops	228							Kabuto
+142	Aerodactyl	Ptera	229					068		Egg/old amber
+143	Snorlax	Kabigon	230		113	312	139			Egg/Munchlax
+144	Articuno	Freezer	240					151		
+145	Zapdos	Thunder	241					152		
+146	Moltres	Fire	242					153		
+147	Dratini	Miniryu	246			351			145	Egg
+148	Dragonair	Hakuryu	247			352			146	Dratini
+149	Dragonite	Kairyu	248			353			147	Dragonair
+150	Mewtwo	Mewtwo	254						151	
+151	Mew†	Mew	255							

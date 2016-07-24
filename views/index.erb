@@ -1,0 +1,87 @@
+<script>
+	var pokemons;
+	pokemons = <%= JSON.pretty_generate(@pokemon) %>;
+
+    function setLatLongInForm(position){
+       document.getElementById('form_lat').value = "" + position.coords.latitude;
+       document.getElementById('form_lng').value = "" + position.coords.longitude;
+    }
+
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(setLatLongInForm);
+    }
+
+    setTimeout(function(){
+       document.getElementById('form_submit').disabled = false;
+    }, 15000)
+
+</script>
+
+<div id="header">
+	<form action="/" method="get">
+	   <input type="hidden" name="lat" id="form_lat" value="<%= @lat %>">
+	   <input type="hidden" name="lng" id="form_lng" value="<%= @lng %>">
+	   <input type="submit" id="form_submit" disabled="disabled" value="Refresh"/>
+	</form>
+</div>
+
+<div id="map"></div>
+
+<% @pokemon.each do |pokemon| %>
+<li><%= pokemon["name"]%></li>
+<% end %>
+
+<script>
+
+
+  function initMap() {
+    var map;
+    var currentLocation;
+
+	google.maps.event.addDomListener(window, "resize", function() {
+	 currentLocation = map.getCenter();
+	 google.maps.event.trigger(map, "resize");
+	 map.setCenter(currentLocation); 
+	});
+
+    var infowindow = new google.maps.InfoWindow({
+      content: ''
+     });
+
+  function linkToDirections(label, location){
+  	return "<a target='_directions' href='https://maps.google.com?saddr=" +
+  	currentLocation.lat + "," + currentLocation.lng + "&daddr=" +
+  	location.lat + "," + location.lng + "'>" + label + "</a>";
+  }  
+
+  // Adds a marker to the map.
+  function addMarker(location, map, pokemon) {
+    // Add the marker at the clicked location, and add the next-available label
+    // from the array of alphabetical characters.
+    var marker = new google.maps.Marker({
+      position: location,
+      label: pokemon.name,
+      map: map,
+      icon: pokemon.image_url
+    });
+
+    marker.addListener('click', function() {
+    	  infowindow.setContent(linkToDirections(pokemon.name, location))
+          infowindow.open(map, marker);
+        });
+    }
+
+    currentLocation = {lat: <%= @lat %>, lng: <%= @lng %>};
+
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: currentLocation,
+      zoom: 15
+    });
+
+    pokemons.forEach(function(pokemon){
+    	addMarker({ lat: pokemon.latitude, lng: pokemon.longitude }, map, pokemon)
+    })
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcDcOBKEZcLvroxcZ8Uc3BEO7JZoEdSb0&callback=initMap"
+async defer></script>
