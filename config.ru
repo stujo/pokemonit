@@ -1,2 +1,2 @@
-require './pokemonitor'
+require './pokemonit'
 run Sinatra::Application
